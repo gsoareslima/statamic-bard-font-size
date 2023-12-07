@@ -1,0 +1,81 @@
+/* Class Type Styles */
+
+.fa-gsl-font-size {
+    padding-bottom: 4px !important;
+}
+
+.fa-gsl-font-size::before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin-top: 3px;
+    background-image: url('/vendor/gsl-bard-font-size/icons/font-size.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.text-6xl {
+    font-size: 3.75rem;
+}
+
+.text-7xl {
+    font-size: 4.5rem;
+}
+
+.text-8xl {
+    font-size: 6rem;
+}
+
+.text-9xl {
+    font-size: 8rem;
+}
+
+.gsl-text-sm {
+    @apply text-sm;
+}
+
+.gsl-text-base {
+    @apply text-base;
+}
+
+.gsl-text-lg {
+    @apply text-lg;
+}
+
+.gsl-text-xl {
+    @apply text-xl;
+}
+
+.gsl-text-2xl {
+    @apply text-2xl;
+}
+
+.gsl-text-3xl {
+    @apply text-3xl;
+}
+
+.gsl-text-4xl {
+    @apply text-4xl;
+}
+
+.gsl-text-5xl {
+    @apply text-5xl;
+}
+
+.gsl-text-6xl {
+    @apply text-5xl;
+}
+
+.gsl-text-7xl {
+    @apply text-5xl;
+}
+
+.gsl-text-8xl {
+    @apply text-5xl;
+}
+
+.gsl-text-9xl {
+    @apply text-5xl;
+}

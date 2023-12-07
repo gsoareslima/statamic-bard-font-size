@@ -1,6 +1,6 @@
 <?php
 
-namespace Arckinteractive\StatamicBardFontSize;
+namespace Gsl\StatamicBardFontSize;
 
 use Statamic\Fieldtypes\Bard\Augmentor;
 use Statamic\Providers\AddonServiceProvider;
@@ -8,11 +8,11 @@ use Statamic\Providers\AddonServiceProvider;
 class ServiceProvider extends AddonServiceProvider
 {
     protected $scripts = [
-        __DIR__.'/../dist/js/arckinteractive-bard-font-size.js',
+        __DIR__.'/../dist/js/gsl-bard-font-size.js',
     ];
     
     protected $stylesheets = [
-        __DIR__.'/../dist/css/arckinteractive-bard-font-size.css'
+        __DIR__.'/../dist/css/gsl-bard-font-size.css'
     ];
 
     protected $publishables = [
@@ -22,10 +22,10 @@ class ServiceProvider extends AddonServiceProvider
     public function boot()
     {
         parent::boot();
-        Augmentor::addMark(ArckFontSize::class);
+        Augmentor::addExtension('gslFontSize', new GslFontSize());
 
         $this->publishes([
-            __DIR__ . '/../public' => public_path('vendor/arckinteractive-bard-font-size'),
-        ], 'arckinteractive-bard-font-size');
+            __DIR__ . '/../public' => public_path('vendor/gsl-bard-font-size'),
+        ], 'gsl-bard-font-size');
     }
 }

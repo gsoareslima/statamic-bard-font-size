@@ -1,16 +1,16 @@
 /* Class Type Styles */
 
-.fa-arck-font-size {
+.fa-gsl-font-size {
     padding-bottom: 4px !important;
 }
 
-.fa-arck-font-size::before {
+.fa-gsl-font-size::before {
     content: "";
     display: block;
     width: 16px;
     height: 16px;
     margin-top: 3px;
-    background-image: url('/vendor/arckinteractive-bard-font-size/icons/font-size.svg');
+    background-image: url('/vendor/gsl-bard-font-size/icons/font-size.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -32,50 +32,50 @@
     font-size: 8rem;
 }
 
-.arck-text-sm {
+.gsl-text-sm {
     @apply text-sm;
 }
 
-.arck-text-base {
+.gsl-text-base {
     @apply text-base;
 }
 
-.arck-text-lg {
+.gsl-text-lg {
     @apply text-lg;
 }
 
-.arck-text-xl {
+.gsl-text-xl {
     @apply text-xl;
 }
 
-.arck-text-2xl {
+.gsl-text-2xl {
     @apply text-2xl;
 }
 
-.arck-text-3xl {
+.gsl-text-3xl {
     @apply text-3xl;
 }
 
-.arck-text-4xl {
+.gsl-text-4xl {
     @apply text-4xl;
 }
 
-.arck-text-5xl {
+.gsl-text-5xl {
     @apply text-5xl;
 }
 
-.arck-text-6xl {
+.gsl-text-6xl {
     @apply text-5xl;
 }
 
-.arck-text-7xl {
+.gsl-text-7xl {
     @apply text-5xl;
 }
 
-.arck-text-8xl {
+.gsl-text-8xl {
     @apply text-5xl;
 }
 
-.arck-text-9xl {
+.gsl-text-9xl {
     @apply text-5xl;
 }

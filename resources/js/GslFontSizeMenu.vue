@@ -68,7 +68,7 @@ export default {
             };
         },
         currentKey() {
-            return this.editor.getMarkAttrs('ArckFontSize').key;
+            return this.editor.getMarkAttrs('GslFontSize').key;
         }
     },
     data() {
@@ -83,7 +83,7 @@ export default {
         },
         setClassType(classTypeKey) {
             // update the editor
-            this.editor.commands.ArckFontSize({
+            this.editor.commands.GslFontSize({
                 key: classTypeKey == this.currentKey ? false : classTypeKey
             })
             // hide the menu
@@ -94,7 +94,7 @@ export default {
                 'class-type-label': true
             };
 
-            classes['arck-' + key] = true;
+            classes['gsl-' + key] = true;
 
             return classes;
         },

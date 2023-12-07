@@ -1,6 +1,6 @@
-export default class ArckFontSize {
+export default class GslFontSize {
     name() {
-        return "ArckFontSize";
+        return "GslFontSize";
     }
 
     schema() {
@@ -10,7 +10,7 @@ export default class ArckFontSize {
             },
             parseDOM: [
                 {
-                    tag: "span.arck-font-size",
+                    tag: "span.gsl-font-size",
                     getAttrs: (dom) => ({
                         key: dom.getAttribute('data-class')
                     })
@@ -63,7 +63,7 @@ export default class ArckFontSize {
                 return [
                     "span",
                     {
-                        'class': 'arck-font-size',
+                        'class': 'gsl-font-size',
                         'data-class': mark.attrs.key,
                         'style': style
                     },

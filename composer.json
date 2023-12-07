@@ -1,9 +1,9 @@
 {
-    "name": "arckinteractive/statamic-bard-font-size",
+    "name": "gsoareslima/statamic-bard-font-size",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Arckinteractive\\StatamicBardFontSize\\": "src"
+            "Gsl\\StatamicBardFontSize\\": "src"
         }
     },
     "extra": {
@@ -13,7 +13,7 @@
         },
         "laravel": {
             "providers": [
-                "Arckinteractive\\StatamicBardFontSize\\ServiceProvider"
+                "Gsl\\StatamicBardFontSize\\ServiceProvider"
             ]
         }
     }

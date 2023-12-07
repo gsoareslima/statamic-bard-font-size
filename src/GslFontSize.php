@@ -1,12 +1,12 @@
 <?php
 
-namespace Arckinteractive\StatamicBardFontSize;
+namespace Gsl\StatamicBardFontSize;
 
-use ProseMirrorToHtml\Marks\Mark;
+use Tiptap\Core\Mark;
 
-class ArckFontSize extends Mark
+class GslFontSize extends Mark
 {
-    protected $markType = 'ArckFontSize';
+    protected $markType = 'GslFontSize';
     protected $tagName = 'span';
 
     public function matching(): bool
@@ -63,7 +63,7 @@ class ArckFontSize extends Mark
             [
                 'tag'   => 'span',
                 'attrs' => [
-                    'class' => 'arck-font-size',
+                    'class' => 'gsl-font-size',
                     'style' => $style
                 ],
             ],
