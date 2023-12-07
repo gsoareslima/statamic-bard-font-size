@@ -1,7 +1,8 @@
 import GslFontSize from './GslFontSize';
 import GslFontSizeMenu from './GslFontSizeMenu.vue';
+const { Mark } = Statamic.$bard.tiptap.core;
 
-Statamic.$bard.extend(({mark}) => mark(new GslFontSize()));
+Statamic.$bard.addExtension(() => Mark.create(new GslFontSize()));
 Statamic.$bard.buttons(() => {
     return {
         name: 'gslfontsize',

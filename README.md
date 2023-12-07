@@ -17,7 +17,7 @@ composer require gsoareslima/statamic-bard-font-size
 After installation run
 
 ``` bash
-php artisan vendor:publish --tag=bard-font-size
+php artisan vendor:publish --tag=gsl-bard-font-size
 ```
 
 ## How to Use
